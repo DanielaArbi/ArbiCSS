@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@300&display=swap'); /* importamos la tipografia a usar */
+
+/* font familiy para el body = font-family: 'Bitter', serif; */
+/* font-family para las h2 = font-family: 'Bebas Neue', cursive; */
+
+body{
+    background-color: #8675A9;
+    color: /* #767C77 */ #290e25;
+    font-family: 'Bitter', serif;
+    text-align: justify; 
+} /* caracteristicas puestas para todo el body */
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+} /* cambio de tipografia */
+
+.otroFondo{
+    background-color:#6155A6;
+    color: black;
+} /* cambio de fondo para los span debajo del header, utilizamos punto para identificar las clases */
+
+#negrita{
+    font-weight: bold;
+} /* caracteristica para las id negrita, usamos el # para identificar id */
+
+#italica{
+    font-style: italic;
+} /* caracteristica para las id italica */
+
+a{
+    text-decoration: none;
+} /* le sacamos el formato que viene por default a las etiquetas a */
+
+a:hover{
+    color: #15aed4;
+} /* cambiamos especificamente el color de las etiquetas a cuando pasamos el mouse por encima */
+
+a:active{
+    color: #290e25;
+} /* cambiamos el color de las etiquetas a cuando clikeamos en ellas */

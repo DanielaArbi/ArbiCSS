@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&family=Nunito:wght@200&family=Source+Sans+Pro:wght@200;600&display=swap');
+
+body{
+    background: #F4FA58;                     /*color de fondo de mi pantalla*/
+    color: #0000FF;                          /* color de mi texto*/
+    font-family: 'Nunito', sans-serif;         /*tipografia de mi texto*/
+    font-size: 20px;                           /*tamaño de mi fuente o letra*/
+}
+.categoria{
+    background: #E45151;                     /*color de fondo de mi span*/
+    color: #f5eded;                          /*color del texto de mi span*/
+    
+}
+.negrita{
+    font-weight: bold;                        /*establezco por medio de la clase la fuente negrita a algunas palabras*/
+}
+.italica{
+    font-style: italic;                       /*establezco por medio de la clase  el estilo de la fuente a italica*/
+}
+a{
+    
+    text-decoration: none;                    /*le quito el subrayado de mis enlaces que vienen por defecto*/
+    color: #8A0829;                         /*cambio el color de texto de mis enlces que viene por defecto. cambiar color*/
+   
+}
+a:hover{
+    background: #f9a03f;                   /*el efecto que hace es que cuando me paro encima se pone el fondo y texto de estos colores*/
+    color: #fff;
+}
+

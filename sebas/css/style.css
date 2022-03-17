@@ -1,0 +1,44 @@
+header{
+    background: linear-gradient(to bottom, rgb(218, 255, 8), rgb(38, 221, 21));
+}
+
+.encabezado a{ 
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-color: #4EFF00;}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.article1{
+    background-color: #C6FF00;
+}
+
+.article2 {
+    background-color: #C6FF00;
+}
+
+.citas {
+    background-color: #C6FF00;
+}
+
+.negrita{
+    font-weight: 700;
+}
+
+.oscuro {
+    font-weight: 700;
+}
+
+.italica{
+    font-style: italic;
+}
